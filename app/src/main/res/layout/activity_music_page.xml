@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.MusicPageActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:id="@+id/relative"
+        android:background="@drawable/background">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:text="artist - title"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textColor="#f1edf2"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/time"
+            android:text="00:00"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textColor="#f1edf2"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/title"/>
+
+        <roid.berlin.android.onlinemusicplayer.view.CircularMusicProgressBar
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:id="@+id/cover"
+            android:layout_below="@+id/time"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            app:border_color="#00796B"
+            app:border_width="2dp"
+            app:centercircle_diammterer="1"
+            app:progress_color="#80CBC4"
+            app:progress_startAngle="90"
+            app:draw_anticlockwise="false"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_play_button"
+            android:id="@+id/play"
+            android:onClick="onplay"
+            android:layout_below="@+id/cover"
+            android:layout_toStartOf="@+id/cover"
+            android:layout_marginTop="15dp"
+            android:layout_toLeftOf="@+id/cover" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_stop_circular_multimedia_button"
+            android:id="@+id/stop"
+            android:onClick="onstop"
+            android:layout_below="@+id/cover"
+            android:layout_toEndOf="@+id/cover"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/cover" />
+
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rec"
+        android:layout_marginTop="2dp"
+        android:layout_below="@id/relative">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>
