@@ -23,20 +23,16 @@ import androidx.recyclerview.widget.RecyclerView;
 import roid.berlin.android.onlinemusicplayer.adapter.MyAdapter;
 import roid.berlin.android.onlinemusicplayer.model.Music;
 
-public class Codes extends AppCompatActivity{
+public class Codes {
 
     RequestQueue req;
-    Context context;
-    MyAdapter myAdapter;
-    LinearLayoutManager mLayout1,mLayout2;
-    List<Music> list1 =  new ArrayList<>();
-    String url = "https://berlinroid.ir/music.php?key=";
+    String url = "http://berlinroid.ir/music.php?key=";
 
-    public void getData (final Context con, final List<Music> list1, final RecyclerView recyclerView,String cat,RequestQueue req){
+    public void getData(final Context con, String cat, RequestQueue req, final OnResponse onResponse) {
 
+        final List<Music> list1 =  new ArrayList<>();
         this.req = req;
         req = Volley.newRequestQueue(con);
-        this.list1 = list1;
         String link = url+cat;
         JsonObjectRequest job = new JsonObjectRequest(Request.Method.GET, link, null, new Response.Listener<JSONObject>() {
             @Override
@@ -63,9 +59,7 @@ public class Codes extends AppCompatActivity{
                         list1.add(m);
                     }
 
-                    myAdapter = new MyAdapter(list1, con);
-                    recyclerView.setItemAnimator(new DefaultItemAnimator());
-                    recyclerView.setAdapter(myAdapter);
+                    onResponse.onSuccess(list1);
                 } catch (Exception e) {
 
                     Toast.makeText(con, "try error", Toast.LENGTH_SHORT).show();
