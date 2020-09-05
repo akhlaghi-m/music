@@ -3,4 +3,93 @@
     <color name="colorPrimary">#c62828</color>
     <color name="colorPrimaryDark">#b71c1c</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="overlay_dark_10">#1A000000</color>
+    <color name="overlay_dark_20">#33000000</color>
+    <color name="overlay_dark_60">#99000000</color>
+    <color name="grey_5">#f2f2f2</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_40">#999999</color>
+    <color name="grey_60">#666666</color>
+    <color name="grey_80">#37474F</color>
+    <color name="grey_90">#263238</color>
+    <color name="red_400">#EF5350</color>
+    <color name="red_500">#F44336</color>
+    <color name="red_900">#B71C1C</color>
+    <color name="white">#FFFFFF</color>
+
+
+    <!-- GRAY Theme -->
+    <color name="primaryColorGray">#9E9E9E</color>
+    <color name="primaryLightColorGray">#F5F5F5</color>
+    <color name="primaryDarkColorGray">#616161</color>
+    <color name="secondaryColorGray">#536DFE</color>
+    <color name="secondaryLightColorGray">#94a5ff</color>
+    <color name="secondaryDarkColorGray">#2c44c9</color>
+    <color name="primaryTextColorGray">#ffffff</color>
+    <color name="secondaryTextColorGray">#000000</color>
+
+
+    <!-- RED Theme -->
+    <color name="primaryColorRed">#F44336</color>
+    <color name="primaryLightColorRed">#FFCDD2</color>
+    <color name="primaryDarkColorRed">#D32F2F</color>
+    <color name="secondaryColorRed">#FFC107</color>
+    <color name="secondaryLightColorRed">#fccf4a</color>
+    <color name="secondaryDarkColorRed">#e1a902</color>
+    <color name="primaryTextColorRed">#ffffff</color>
+    <color name="secondaryTextColorRed">#000000</color>
+
+
+
+
+    <!-- PURPLE Theme -->
+    <color name="primaryColorPurple">#9C27B0</color>
+    <color name="primaryLightColorPurple">#E1BEE7</color>
+    <color name="primaryDarkColorPurple">#7B1FA2</color>
+    <color name="secondaryColorPurple">#CDDC39</color>
+    <color name="secondaryLightColorPurple">#e1ea86</color>
+    <color name="secondaryDarkColorPurple">#b4c320</color>
+    <color name="primaryTextColorPurple">#ffffff</color>
+    <color name="secondaryTextColorPurple">#000000</color>
+
+
+    <!-- DEEPPURPLE Theme -->
+    <color name="primaryColorDeepPurple">#673AB7</color>
+    <color name="primaryLightColorDeepPurple">#D1C4E9</color>
+    <color name="primaryDarkColorDeepPurple">#512DA8</color>
+    <color name="secondaryColorDeepPurple">#FFEB3B</color>
+    <color name="secondaryLightColorDeepPurple">#fff599</color>
+    <color name="secondaryDarkColorDeepPurple">#e0cd24</color>
+    <color name="primaryTextColorDeepPurple">#ffffff</color>
+    <color name="secondaryTextColorDeepPurple">#000000</color>
+
+    <!-- INDIGO Theme -->
+    <color name="primaryColorIndigo">#3F51B5</color>
+    <color name="primaryLightColorIndigo">#C5CAE9</color>
+    <color name="primaryDarkColorIndigo">#303F9F</color>
+    <color name="secondaryColorIndigo">#FF9800</color>
+    <color name="secondaryLightColorIndigo">#feba56</color>
+    <color name="secondaryDarkColorIndigo">#cf7b00</color>
+    <color name="primaryTextColorIndigo">#ffffff</color>
+    <color name="secondaryTextColorIndigo">#000000</color>
+
+    <!-- BLUE Theme -->
+    <color name="primaryColorBlue">#1e88e5</color>
+    <color name="primaryLightColorBlue">#6ab7ff</color>
+    <color name="primaryDarkColorBlue">#005cb2</color>
+    <color name="secondaryColorBlue">#607D8B</color>
+    <color name="secondaryLightColorBlue">#CFD8DC</color>
+    <color name="secondaryDarkColorBlue">#455A64</color>
+    <color name="primaryTextColorBlue">#000000</color>
+    <color name="secondaryTextColorBlue">#000000</color>
+
+    <!-- REGISTER & LOGIN Theme -->
+    <color name="colorPrimaryLogin">#d60064</color>
+    <color name="colorPrimaryDarkLogin">#b30d4d</color>
+    <color name="colorAccentLogin">#e1e1e1</color>
+    <color name="colorTextLogin">#ffffff</color>
+    <color name="colorPrimaryDark2Login">#106991</color>
+    <color name="colorPrimary2Login">#1984b4</color>
+
 </resources>

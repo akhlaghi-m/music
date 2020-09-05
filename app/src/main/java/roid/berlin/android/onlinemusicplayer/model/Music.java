@@ -7,6 +7,15 @@ public class Music {
     private String img;
     private String link;
     private String genre;
+    private String text;
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
 
     public String getTitle() {
         return title;

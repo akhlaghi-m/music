@@ -1,4 +1,4 @@
-package roid.berlin.android.onlinemusicplayer;
+package roid.berlin.android.onlinemusicplayer.interfaces;
 
 import java.util.List;
 
